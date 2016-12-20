@@ -1,0 +1,50 @@
+    Finished debug [unoptimized + debuginfo] target(s) in 0.0 secs
+     Running `target/debug/npm-registry-follower`
+TRACE:hyper::header: Headers.set( "Host", replicate.npmjs.com )
+DEBUG:hyper::client::connect: Https::connect("https://replicate.npmjs.com/_changes")
+DEBUG:hyper::client::dns: resolve "replicate.npmjs.com":443
+DEBUG:hyper::client::connect: connecting to V4(35.160.78.90:443)
+TRACE:tokio_proto::streaming::pipeline::advanced: Pipeline::tick
+TRACE:hyper::http::conn: Conn::poll()
+TRACE:hyper::http::conn: Conn::read_head
+TRACE:hyper::http::buffer: reserving initial 4096
+TRACE:tokio_proto::streaming::pipeline::advanced: write_in_frames
+TRACE:tokio_proto::streaming::pipeline::advanced: write_in_body
+DEBUG:tokio_proto::streaming::pipeline::advanced: write in body done
+TRACE:tokio_proto::streaming::pipeline::client: Dispatch::poll
+TRACE:tokio_proto::streaming::pipeline::client:    --> received request
+TRACE:tokio_proto::streaming::pipeline::advanced:    --> got message
+TRACE:tokio_proto::streaming::pipeline::advanced: write_in_message
+TRACE:tokio_proto::streaming::pipeline::advanced: got in_flight value without body
+TRACE:hyper::http::conn: Conn::start_send( frame=Message { message: MessageHead { version: Http11, subject: RequestLine(Get, AbsolutePath { path: "/_changes", query: None }), headers: Headers { Host: replicate.npmjs.com, } }, body: false } )
+TRACE:hyper::header: Headers.remove( "Transfer-Encoding" )
+TRACE:hyper::http: should_keep_alive(version=Http11, header=None) = true
+TRACE:hyper::http::h1::parse: writing head: MessageHead { version: Http11, subject: RequestLine(Get, AbsolutePath { path: "/_changes", query: None }), headers: Headers { Host: replicate.npmjs.com, } }
+DEBUG:hyper::http::h1::parse: writing Headers { Host: replicate.npmjs.com, }
+TRACE:hyper::http::buffer: Buffer::write len = 53
+TRACE:hyper::http::buffer: reserving initial 4096
+TRACE:tokio_proto::streaming::pipeline::advanced: write_in_body
+DEBUG:tokio_proto::streaming::pipeline::advanced: write in body done
+TRACE:tokio_proto::streaming::pipeline::client: Dispatch::poll
+TRACE:tokio_proto::streaming::pipeline::client:    --> client dropped
+TRACE:tokio_proto::streaming::pipeline::advanced:    --> got None
+TRACE:hyper::http::conn: Conn::poll_complete()
+TRACE:hyper::http::conn: Conn::write_queued()
+TRACE:hyper::http::conn: flushed State { reading: Init, writing: KeepAlive, keep_alive: true }
+TRACE:hyper::http::conn: Conn::flush = Ok(Ready(()))
+TRACE:tokio_proto::streaming::pipeline::advanced: Pipeline::tick
+TRACE:hyper::http::conn: Conn::poll()
+TRACE:hyper::http::conn: Conn::read_head
+TRACE:tokio_proto::streaming::pipeline::advanced: write_in_frames
+TRACE:tokio_proto::streaming::pipeline::advanced: write_in_body
+DEBUG:tokio_proto::streaming::pipeline::advanced: write in body done
+TRACE:tokio_proto::streaming::pipeline::client: Dispatch::poll
+TRACE:tokio_proto::streaming::pipeline::client:    --> client dropped
+TRACE:tokio_proto::streaming::pipeline::advanced:    --> got None
+TRACE:hyper::http::conn: Conn::poll_complete()
+TRACE:hyper::http::conn: Conn::write_queued()
+TRACE:hyper::http::conn: Conn::flush = Err(Error { repr: Custom(Custom { kind: Other, error: Error { code: 0, message: "No error." } }) })
+ERROR:tokio_proto::streaming::pipeline::client: pipeline error: No error.
+thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: Io(Error { repr: Custom(Custom { kind: BrokenPipe, error: StringError("broken pipe") }) })', ../src/libcore/result.rs:799
+note: Run with `RUST_BACKTRACE=1` for a backtrace.
+error: Process didn't exit successfully: `target/debug/npm-registry-follower` (exit code: 101)
