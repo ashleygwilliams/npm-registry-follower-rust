@@ -1,0 +1,8 @@
+[package]
+name = "npm-registry-follower"
+version = "0.1.0"
+authors = ["Ashley Williams <ashley666ashley@gmail.com>"]
+
+[dependencies]
+futures = "0.1.6"
+changes-stream = { git = "https://github.com/ashleygwilliams/changes-stream-rust.git" }
