@@ -1,3 +1,6 @@
+#[macro_use] extern crate log;
+extern crate env_logger;
+
 extern crate changes_stream;
 extern crate futures;
 
@@ -7,6 +10,8 @@ use std::io::Write;
 use changes_stream::ChangesStream;
 
 fn main() {
+    env_logger::init().unwrap();
+
     let url = "https://replicate.npmjs.com/_changes".to_string();
     let mut changes = ChangesStream::new(url);
 

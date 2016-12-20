@@ -1,0 +1,191 @@
+Pre-trans
+Ty interner             total           ty region  both
+    TyAdt             :    406 57.8%,  0.0%   0.0%  0.0%
+    TyBox             :      8  1.1%,  0.0%   0.0%  0.0%
+    TyArray           :     31  4.4%,  0.0%   0.0%  0.0%
+    TySlice           :      5  0.7%,  0.0%   0.0%  0.0%
+    TyRawPtr          :     38  5.4%,  0.0%   0.0%  0.0%
+    TyRef             :     88 12.5%,  0.0%   0.0%  0.0%
+    TyFnDef           :     96 13.7%,  0.0%   0.0%  0.0%
+    TyFnPtr           :      1  0.1%,  0.0%   0.0%  0.0%
+    TyTrait           :      5  0.7%,  0.0%   0.0%  0.0%
+    TyClosure         :      0  0.0%,  0.0%   0.0%  0.0%
+    TyTuple           :      4  0.6%,  0.0%   0.0%  0.0%
+    TyParam           :     20  2.8%,  0.0%   0.0%  0.0%
+    TyInfer           :      0  0.0%,  0.0%   0.0%  0.0%
+    TyProjection      :      0  0.0%,  0.0%   0.0%  0.0%
+    TyAnon            :      0  0.0%,  0.0%   0.0%  0.0%
+                  total    702         0.0%   0.0%  0.0%
+Substs interner: #354
+BareFnTy interner: #87
+Region interner: #19
+Stability interner: #0
+Layout interner: #0
+Post-trans
+Ty interner             total           ty region  both
+    TyAdt             :    406 57.8%,  0.0%   0.0%  0.0%
+    TyBox             :      8  1.1%,  0.0%   0.0%  0.0%
+    TyArray           :     31  4.4%,  0.0%   0.0%  0.0%
+    TySlice           :      5  0.7%,  0.0%   0.0%  0.0%
+    TyRawPtr          :     38  5.4%,  0.0%   0.0%  0.0%
+    TyRef             :     88 12.5%,  0.0%   0.0%  0.0%
+    TyFnDef           :     96 13.7%,  0.0%   0.0%  0.0%
+    TyFnPtr           :      1  0.1%,  0.0%   0.0%  0.0%
+    TyTrait           :      5  0.7%,  0.0%   0.0%  0.0%
+    TyClosure         :      0  0.0%,  0.0%   0.0%  0.0%
+    TyTuple           :      4  0.6%,  0.0%   0.0%  0.0%
+    TyParam           :     20  2.8%,  0.0%   0.0%  0.0%
+    TyInfer           :      0  0.0%,  0.0%   0.0%  0.0%
+    TyProjection      :      0  0.0%,  0.0%   0.0%  0.0%
+    TyAnon            :      0  0.0%,  0.0%   0.0%  0.0%
+                  total    702         0.0%   0.0%  0.0%
+Substs interner: #354
+BareFnTy interner: #87
+Region interner: #19
+Stability interner: #0
+Layout interner: #0
+Pre-trans
+Ty interner             total           ty region  both
+    TyAdt             :    829 13.4%,  0.0%   0.0%  0.0%
+    TyBox             :     13  0.2%,  0.0%   0.0%  0.0%
+    TyArray           :    134  2.2%,  0.0%   0.0%  0.0%
+    TySlice           :     11  0.2%,  0.0%   0.0%  0.0%
+    TyRawPtr          :     42  0.7%,  0.0%   0.0%  0.0%
+    TyRef             :   1292 20.9%,  0.0%   0.0%  0.0%
+    TyFnDef           :   3389 54.9%,  0.0%   0.0%  0.0%
+    TyFnPtr           :     81  1.3%,  0.0%   0.0%  0.0%
+    TyTrait           :      8  0.1%,  0.0%   0.0%  0.0%
+    TyClosure         :     27  0.4%,  0.1%   0.0%  0.0%
+    TyTuple           :     54  0.9%,  0.0%   0.0%  0.0%
+    TyParam           :     78  1.3%,  0.0%   0.0%  0.0%
+    TyInfer           :     13  0.2%,  0.2%   0.0%  0.0%
+    TyProjection      :    197  3.2%,  0.0%   0.0%  0.0%
+    TyAnon            :      0  0.0%,  0.0%   0.0%  0.0%
+                  total   6168         0.4%   0.0%  0.0%
+Substs interner: #2210
+BareFnTy interner: #2436
+Region interner: #785
+Stability interner: #1
+Layout interner: #0
+thread 'rustc' panicked at 'explicit panic', ../src/librbml/lib.rs:436
+note: Run with `RUST_BACKTRACE=1` for a backtrace.
+
+Build failed, waiting for other jobs to finish...
+Pre-trans
+Ty interner             total           ty region  both
+    TyAdt             :   1162 13.6%,  0.3%   0.0%  0.0%
+    TyBox             :     31  0.4%,  0.1%   0.0%  0.0%
+    TyArray           :    171  2.0%,  0.0%   0.0%  0.0%
+    TySlice           :     24  0.3%,  0.0%   0.0%  0.0%
+    TyRawPtr          :     51  0.6%,  0.0%   0.0%  0.0%
+    TyRef             :   1925 22.5%,  0.1%   0.0%  0.0%
+    TyFnDef           :   4607 53.9%,  0.0%   0.0%  0.0%
+    TyFnPtr           :    107  1.3%,  0.0%   0.0%  0.0%
+    TyTrait           :     13  0.2%,  0.0%   0.0%  0.0%
+    TyClosure         :      9  0.1%,  0.0%   0.0%  0.0%
+    TyTuple           :     71  0.8%,  0.0%   0.0%  0.0%
+    TyParam           :    166  1.9%,  0.0%   0.0%  0.0%
+    TyInfer           :     11  0.1%,  0.1%   0.0%  0.0%
+    TyProjection      :    193  2.3%,  0.0%   0.0%  0.0%
+    TyAnon            :      0  0.0%,  0.0%   0.0%  0.0%
+                  total   8541         0.6%   0.0%  0.0%
+Substs interner: #3034
+BareFnTy interner: #3767
+Region interner: #1086
+Stability interner: #1
+Layout interner: #1
+Post-trans
+Ty interner             total           ty region  both
+    TyAdt             :   1165 13.5%,  0.3%   0.0%  0.0%
+    TyBox             :     31  0.4%,  0.1%   0.0%  0.0%
+    TyArray           :    172  2.0%,  0.0%   0.0%  0.0%
+    TySlice           :     24  0.3%,  0.0%   0.0%  0.0%
+    TyRawPtr          :     54  0.6%,  0.0%   0.0%  0.0%
+    TyRef             :   1944 22.5%,  0.1%   0.0%  0.0%
+    TyFnDef           :   4660 54.0%,  0.0%   0.0%  0.0%
+    TyFnPtr           :    108  1.3%,  0.0%   0.0%  0.0%
+    TyTrait           :     13  0.2%,  0.0%   0.0%  0.0%
+    TyClosure         :      9  0.1%,  0.0%   0.0%  0.0%
+    TyTuple           :     72  0.8%,  0.0%   0.0%  0.0%
+    TyParam           :    166  1.9%,  0.0%   0.0%  0.0%
+    TyInfer           :     11  0.1%,  0.1%   0.0%  0.0%
+    TyProjection      :    193  2.2%,  0.0%   0.0%  0.0%
+    TyAnon            :      0  0.0%,  0.0%   0.0%  0.0%
+                  total   8622         0.6%   0.0%  0.0%
+Substs interner: #3038
+BareFnTy interner: #3820
+Region interner: #1087
+Stability interner: #1
+Layout interner: #6
+Pre-trans
+Ty interner             total           ty region  both
+    TyAdt             :    986 11.3%,  0.0%   0.0%  0.0%
+    TyBox             :     18  0.2%,  0.0%   0.0%  0.0%
+    TyArray           :    192  2.2%,  0.0%   0.0%  0.0%
+    TySlice           :     41  0.5%,  0.0%   0.0%  0.0%
+    TyRawPtr          :     38  0.4%,  0.0%   0.0%  0.0%
+    TyRef             :   2013 23.0%,  0.1%   0.0%  0.0%
+    TyFnDef           :   4779 54.6%,  0.0%   0.0%  0.0%
+    TyFnPtr           :    113  1.3%,  0.0%   0.0%  0.0%
+    TyTrait           :      8  0.1%,  0.0%   0.0%  0.0%
+    TyClosure         :      0  0.0%,  0.0%   0.0%  0.0%
+    TyTuple           :     99  1.1%,  0.0%   0.0%  0.0%
+    TyParam           :    162  1.8%,  0.0%   0.0%  0.0%
+    TyInfer           :     17  0.2%,  0.2%   0.0%  0.0%
+    TyProjection      :    294  3.4%,  0.0%   0.0%  0.0%
+    TyAnon            :      0  0.0%,  0.0%   0.0%  0.0%
+                  total   8760         0.4%   0.0%  0.0%
+Substs interner: #2920
+BareFnTy interner: #3744
+Region interner: #1612
+Stability interner: #1
+Layout interner: #6
+Post-trans
+Ty interner             total           ty region  both
+    TyAdt             :   1058 10.7%,  0.0%   0.0%  0.0%
+    TyBox             :     18  0.2%,  0.0%   0.0%  0.0%
+    TyArray           :    197  2.0%,  0.0%   0.0%  0.0%
+    TySlice           :     42  0.4%,  0.0%   0.0%  0.0%
+    TyRawPtr          :     55  0.6%,  0.0%   0.0%  0.0%
+    TyRef             :   2214 22.4%,  0.1%   0.0%  0.0%
+    TyFnDef           :   5531 56.0%,  0.0%   0.0%  0.0%
+    TyFnPtr           :    140  1.4%,  0.0%   0.0%  0.0%
+    TyTrait           :     12  0.1%,  0.0%   0.0%  0.0%
+    TyClosure         :      0  0.0%,  0.0%   0.0%  0.0%
+    TyTuple           :    122  1.2%,  0.0%   0.0%  0.0%
+    TyParam           :    162  1.6%,  0.0%   0.0%  0.0%
+    TyInfer           :     17  0.2%,  0.2%   0.0%  0.0%
+    TyProjection      :    303  3.1%,  0.0%   0.0%  0.0%
+    TyAnon            :      0  0.0%,  0.0%   0.0%  0.0%
+                  total   9871         0.3%   0.0%  0.0%
+Substs interner: #3064
+BareFnTy interner: #4317
+Region interner: #1657
+Stability interner: #1
+Layout interner: #56
+Pre-trans
+Ty interner             total           ty region  both
+    TyAdt             :   1655 10.5%,  0.2%   0.0%  0.0%
+    TyBox             :     42  0.3%,  0.0%   0.0%  0.0%
+    TyArray           :    332  2.1%,  0.0%   0.0%  0.0%
+    TySlice           :    207  1.3%,  0.0%   0.0%  0.0%
+    TyRawPtr          :     55  0.4%,  0.0%   0.0%  0.0%
+    TyRef             :   5635 35.9%,  0.1%   0.0%  0.0%
+    TyFnDef           :   6729 42.9%,  0.0%   0.0%  0.0%
+    TyFnPtr           :    232  1.5%,  0.0%   0.0%  0.0%
+    TyTrait           :     81  0.5%,  0.0%   0.0%  0.0%
+    TyClosure         :    101  0.6%,  0.1%   0.0%  0.0%
+    TyTuple           :    265  1.7%,  0.1%   0.0%  0.0%
+    TyParam           :    172  1.1%,  0.0%   0.0%  0.0%
+    TyInfer           :     58  0.4%,  0.4%   0.0%  0.0%
+    TyProjection      :    127  0.8%,  0.0%   0.0%  0.0%
+    TyAnon            :      0  0.0%,  0.0%   0.0%  0.0%
+                  total  15691         0.9%   0.0%  0.0%
+Substs interner: #5007
+BareFnTy interner: #5519
+Region interner: #53840
+Stability interner: #2
+Layout interner: #19
+thread 'rustc' panicked at 'explicit panic', ../src/librbml/lib.rs:436
+note: Run with `RUST_BACKTRACE=1` for a backtrace.
+

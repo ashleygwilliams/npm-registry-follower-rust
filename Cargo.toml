@@ -6,3 +6,4 @@ authors = ["Ashley Williams <ashley666ashley@gmail.com>"]
 [dependencies]
 futures = "0.1.6"
 changes-stream = { git = "https://github.com/ashleygwilliams/changes-stream-rust.git" }
+env_logger = "0.3.5"
