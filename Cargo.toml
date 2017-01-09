@@ -5,4 +5,5 @@ authors = ["Ashley Williams <ashley666ashley@gmail.com>"]
 
 [dependencies]
 futures = "0.1.6"
+serde_json = "0.8"
 changes-stream = { git = "https://github.com/ashleygwilliams/changes-stream-rust.git" }
