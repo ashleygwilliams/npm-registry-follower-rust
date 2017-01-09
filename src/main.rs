@@ -7,7 +7,7 @@ use std::io::Write;
 use changes_stream::ChangesStream;
 
 fn main() {
-    let url = "https://replicate.npmjs.com/_changes".to_string();
+    let url = "https://replicate.npmjs.com/_changes?feed=continuous".to_string();
     let mut changes = ChangesStream::new(url);
 
     changes.on(|change| {
